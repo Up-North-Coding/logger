@@ -9,7 +9,8 @@
         "pretty": "npx prettier --config '.prettierrc.json' --write .",
         "eslint": "npx eslint --config '.eslintrc.json' --fix --ext .json,.js",
         "quality": "npm --silent run dev-install && npm --silent run pretty && npm --silent run eslint .",
-        "release": "npm pack lib/"
+        "release": "npm pack lib/",
+        "npm_publish": "cd src && npm publish --access public"
     },
     "repository": {
         "type": "git",

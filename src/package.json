@@ -1,6 +1,6 @@
 {
     "name": "@unc/logger",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Useful and pretty console logging with colors and redaction of sensitive information.",
     "main": "lib/index.js",
     "scripts": {
