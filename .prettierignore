@@ -1,0 +1,5 @@
+# ignore files to pretty
+# eg, *.html will ignore all html files and NOT pretty them
+
+
+**/node_modules

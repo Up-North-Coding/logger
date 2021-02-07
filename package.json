@@ -1,0 +1,47 @@
+{
+    "name": "@unc/logger",
+    "version": "1.0.0",
+    "description": "Useful and pretty console logging with colors and redaction of sensitive information.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node testAll.js",
+        "dev-install": "npm install --only=dev",
+        "pretty": "npx prettier --config '.prettierrc.json' --write .",
+        "eslint": "npx eslint --config '.eslintrc.json' --fix --ext .json,.js",
+        "quality": "npm --silent run dev-install && npm --silent run pretty && npm --silent run eslint .",
+        "release": "npm pack lib/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Up-North-Coding/logger.git"
+    },
+    "keywords": [
+        "logger",
+        "redaction",
+        "pretty",
+        "colors"
+    ],
+    "author": {
+        "name": "Vance Walsh",
+        "email": "vance@upnorthcoding.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Up-North-Coding/logger/issues"
+    },
+    "homepage": "https://github.com/Up-North-Coding/logger#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.17.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-config-standard": "^16.0.2",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-json": "^2.1.2",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "prettier": "2.2.1"
+    }
+}
